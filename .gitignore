@@ -1,36 +1,14 @@
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
+*.pyc
+*.pyo
+.venv/
+venv/
 *.egg-info/
 dist/
 build/
-
-# Virtual environments
-venv/
-env/
-.venv/
-
-# Model artifacts
-*.pkl
-*.joblib
-models/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-
-# Environment
-.env
-.env.local
-
-# Testing
+.streamlit/
 .pytest_cache/
-htmlcov/
 .coverage
-
-# OS
-.DS_Store
-Thumbs.db
+htmlcov/
+*.joblib
+.env
